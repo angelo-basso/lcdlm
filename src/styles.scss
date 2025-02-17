@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@1,900&display=swap');
+@import "bootstrap/scss/bootstrap";
+*{
+  margin: 0;
+}
+body{
+  font-family: "Reddit Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  padding: 0;
+  color: white;
+  background: url("/img/home_component_background_img.jpg")no-repeat center center fixed;
+  height: 100dvh;
+}
+
+@font-face {
+  font-family: 'Nickainley';
+  src: url('/fonts/Nickainley/Nickainley-Normal.otf') format('opentype');
+}
+
+

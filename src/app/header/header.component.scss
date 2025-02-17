@@ -1,0 +1,55 @@
+nav{
+  backdrop-filter: blur(40px);
+  box-shadow: 0 0 30px rgba(227,228,237,0.37);
+  border: 2px solid rgba(255,255,255,0.18);
+}
+
+.nav-item a:hover{
+  transform: scale(1.3);
+}
+/*
+header {
+  height: 10vh;
+  background-color: #27347D;
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Nickainley', sans-serif;
+  position: relative;
+  left: 12.5%;
+  width: 75%;
+  border-radius: 50px;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  font-family: "Reddit Sans", serif;
+  display: flex;
+  justify-content: center; !* Center the menu items *!
+  width: 100%;
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 5px; !* Reduce the margin between menu items *!
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  .active {
+    color: #666;
+    text-decoration: underline;
+  }
+}
+
+
+*/
