@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@use "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@1,900&display=swap');
-@import "bootstrap/scss/bootstrap";
+
 *{
   margin: 0;
 }

@@ -20,6 +20,17 @@ router-outlet {
   flex: 1;
 }
 
+app-header{
+  position: fixed;
+  max-height: 10dvh;
+  width: 100dvw;
+  top: 0;
+}
+
 app-footer{
+  position: absolute;
+  max-height: 20dvh;
+  width: 100dvw;
   bottom: 0;
 }
+
