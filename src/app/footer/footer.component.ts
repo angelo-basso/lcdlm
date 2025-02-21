@@ -2,11 +2,13 @@ import {Component, OnInit} from '@angular/core';
 import {SocialMediaService} from '../services/social-media.service';
 import {SocialMedia} from '../models/social-media.model';
 import {SocialMediaListComponent} from './social-media-list/social-media-list.component';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-footer',
   imports: [
-    SocialMediaListComponent
+    SocialMediaListComponent,
+    RouterLink
   ],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'

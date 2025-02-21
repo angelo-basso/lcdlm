@@ -10,7 +10,7 @@
           <img class="rounded-circle" src="img/website_owner_footer.png" height="150" alt=""
                loading="lazy" />
         </div>
-        <p class="text-center">Léa COLLMANN<br/>Concièrge immobilières</p>
+        <p i18n class="text-center">Léa COLLMANN<br/>Concièrge immobilière</p>
         <app-social-media-list [socialMediaList]="socialMediaList"/>
 
 
@@ -19,7 +19,7 @@
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-black">
-        <h5 class="text-uppercase mb-4">Contact</h5>
+        <h5 i18n class="text-uppercase mb-4">Contact</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -37,23 +37,17 @@
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-black">
-        <h5 class="text-uppercase mb-4 text-black">Animals</h5>
+        <h5 i18n class="text-uppercase mb-4 text-black">Informations légales</h5>
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>When your pet is missing</a>
+            <a i18n routerLink="legal/cgu" class="text-black">Conditions générales de vente</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>Recently found</a>
+            <a i18n routerLink="legal/legal-mention" class="text-black">Mentions légales</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>How to adopt?</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>Pets for adoption</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>Material gifts</a>
+            <a i18n routerLink="legal/privacy-policy" class="text-black">Politique de confidentialité</a>
           </li>
         </ul>
       </div>
@@ -61,20 +55,23 @@
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-4 text-black">Animals</h5>
+        <h5 i18n class="text-uppercase mb-4 text-black">Informations complémentaires</h5>
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>General information</a>
+            <a i18n routerLink="further/blog" class="text-black">Blog</a>
+          </li>
+          <li class="mb-2 d-none">
+            <a i18n routerLink="further/they-talk-about-us" class="text-black">Ils parlent de nous</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>About the shelter</a>
+            <a i18n routerLink="further/frequently-asked-questions" class="text-black">FAQ</a>
+          </li>
+          <li class="mb-2 d-none">
+            <a i18n routerLink="further/hiring" class="text-black">Recrutement</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>Statistic data</a>
-          </li>
-          <li class="mb-2">
-            <a href="#!" class="text-black"><i class="fas fa-paw pe-3"></i>Job</a>
+            <a i18n routerLink="further/estimate-your-income" class="text-black">Estimez vos revenus</a>
           </li>
         </ul>
       </div>
