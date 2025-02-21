@@ -17,11 +17,12 @@ app-root {
 }
 
 router-outlet {
+  position: relative;
   flex: 1;
 }
 
 app-header{
-  position: fixed;
+  position: sticky;
   max-height: 10dvh;
   width: 100dvw;
   top: 0;
