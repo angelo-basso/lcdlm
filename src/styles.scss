@@ -3,18 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@1,900&display=swap');
 @import url('https://use.fontawesome.com/v6.7.2/css/all/css');
 
-*{
+* {
   margin: 0;
 }
-body{
+
+body {
   font-family: "Reddit Sans", serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: italic;
   padding: 0;
   color: white;
-  background: url("/img/home_component_background_img.jpg")no-repeat center center fixed;
+  background: url("/img/background/background_img_width_gt_480px.jpg") no-repeat center center fixed;
   height: 100dvh;
+}
+
+@media (max-width: 480px) {
+  body {
+    background: url("/img/background/background_img_width_le_480px.jpg") no-repeat center center fixed;
+  }
 }
 
 @font-face {
