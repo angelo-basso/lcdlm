@@ -18,6 +18,14 @@ body {
   height: 100dvh;
 }
 
+.h-90px {
+  height: 90px;
+}
+
+.h-100px {
+  height: 100px;
+}
+
 @media (max-width: 480px) {
   body {
     background: url("/img/background/background_img_width_le_480px.jpg") no-repeat center center fixed;
