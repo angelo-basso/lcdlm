@@ -48,7 +48,7 @@
           "options": {
             "localize": [
               "en-US",
-              "de-DE"
+              "de"
             ],
             "outputPath": "dist/lcdlm",
             "index": "src/index.html",
