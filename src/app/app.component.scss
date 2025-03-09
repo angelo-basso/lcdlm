@@ -32,3 +32,30 @@ app-footer{
   bottom: 0;
 }
 
+#to-top{
+  position: fixed;
+  bottom: 10dvh;
+  right: 3dvw;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  background-color: #bd2b2c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: bottom 200ms, transform 200ms;
+  transform: scale(0);
+}
+
+@media (min-width: 500px){
+  #to-top:hover{
+    bottom: 11dvh;
+  }
+}
+
+#to-top.show{
+  transform: scale(1);
+}
+
