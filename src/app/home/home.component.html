@@ -1,17 +1,30 @@
 <div class="main">
-  <div class="container">
-    <p>
-      <span i18n>Conciergerie spécialisée dans la gestion locative de courte durée<br>à Strasbourg, Haguenau et le reste du Bas-Rhin</span>
-    </p>
-  </div>
-</div>
-<div class="container commitment">
-  <div class="row">
-    <div class="col-10 offset-1">
-      <div class="row">
-        <div class="col-sm-8 offset-sm-2 col-lg-3 offset-lg-1" *ngFor="let commitment of commitments">
-          <app-commitment-card [commitment]="commitment"/>
+  <div class="container text-center">
+    <div class="row intro-text">
+      <div class="col-12 col-lg-6 offset-lg-3">Le Canapé de la Marmotte</div>
+      <div class="col-10 offset-1">Votre partenaire de confiance pour une gestion immobilière sereine et rentable à
+        Strasbourg, Haguenau et le reste du Bas-Rhin
+      </div>
+    </div>
+    <div class="row pt-3 pb-3">
+      <div class="col-6 offset-1 col-lg-6 offset-lg-3">
+        <lcdlm-cta [cta]="contactUsCta"/>
+      </div>
+    </div>
+    <div class="row text-start">
+      <div class="col-12">
+        <h4 class="fw-bold">Bienvenue chez Le canapé de la Marmotte</h4>
+        <p>Chez le Canapé de la Marmotte, nous savons qu’il est essentiel pour les propriétaires de confier leur bien à un partenaire de confiance. C'est pourquoi nous mettons notre expertise, notre passion du service et notre sens du détail au profit de votre tranquillité. Grâce à notre gestion efficace et optimisée de vos locations saisonnières, nous vous assurons une sérénité totale.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <div class="row">
+          <div class=" col-8 offset-2 col-lg-3 offset-lg-1" *ngFor="let commitment of commitments">
+            <app-commitment-card [commitment]="commitment"/>
+          </div>
         </div>
+      </div>
     </div>
   </div>
 </div>
